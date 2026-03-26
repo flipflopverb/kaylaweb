@@ -6,7 +6,7 @@ export default function Home() {
       <section className="w-full py-28 px-4 bg-[#FAF8F5]">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-['Playfair_Display'] text-[#2D2D2D] mb-6 leading-tight">
-            Capturing Life&apos;s Beautiful Moments
+            Welcome!
           </h1>
           <p className="text-lg text-[#7A7A7A] mb-10 max-w-2xl mx-auto font-['Raleway'] font-light">
             Professional photography services tailored to preserve your special memories with an artistic touch.

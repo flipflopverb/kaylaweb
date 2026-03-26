@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/kaylaweb",
+  assetPrefix: "/kaylaweb/",
 };
 
 export default nextConfig;

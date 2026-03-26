@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+const isGithubActions = process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig: NextConfig = {
   output: "export",
   distDir: "docs",
@@ -7,8 +9,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/kaylaweb",
-  assetPrefix: "/kaylaweb/",
+  basePath: isGithubActions ? "/kaylaweb" : "",
+  assetPrefix: isGithubActions ? "/kaylaweb/" : "",
 };
 
 export default nextConfig;
